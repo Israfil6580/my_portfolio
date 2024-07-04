@@ -4,8 +4,8 @@ import { RiArrowRightDoubleLine } from "react-icons/ri";
 
 const page = () => {
   return (
-    <div className="min-h-[80vh] container mx-auto relative">
-      <Image className="absolute" src={blur} alt="blur" />
+    <div className="min-h-[84vh] container mx-auto relative">
+      <Image className="absolute" src={blur} alt="blur" priority />
       <RiArrowRightDoubleLine className="absolute right-0 top-1/2 -translate-y-1/2 h-60 w-auto text-[#111B2D]" />
       <div className="flex mb-10 mt-20 justify-center">
         <h1 className="lg:text-7xl text-5xl text-primary font-clash">

@@ -32,7 +32,12 @@ const page = () => {
       <div className="flex flex-col gap-y-28">
         <div className="relative z-10">
           <div className="flex flex-col lg:flex-row justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
-            <Image className="absolute left-1/2 -z-10" src={blur} alt="blur" />
+            <Image
+              className="absolute left-1/2 -z-10"
+              src={blur}
+              alt="blur"
+              priority
+            />
 
             <Image
               src={project1}
@@ -182,12 +187,22 @@ const page = () => {
               className="lg:w-1/2 w-full lg:rounded-3xl"
               alt=""
             />
-            <Image className="absolute left-0 -z-10" src={blur} alt="blur" />
+            <Image
+              className="absolute left-0 -z-10"
+              src={blur}
+              alt="blur"
+              priority
+            />
           </div>
         </div>
         <div className="relative z-10">
           <div className="flex lg:flex-row flex-col justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
-            <Image className="absolute left-1/2 -z-10" src={blur} alt="blur" />
+            <Image
+              className="absolute left-1/2 -z-10"
+              src={blur}
+              alt="blur"
+              priority
+            />
             <Image
               src={project3}
               className="lg:w-1/2 w-full lg:rounded-3xl"

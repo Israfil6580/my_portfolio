@@ -38,10 +38,16 @@ const Banner = () => {
           className="object-cover h-full rotate-180"
           src={blur}
           alt="Blur Effect"
+          priority
         />
       </div>
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 object-cover">
-        <Image className="object-cover h-full" src={blur} alt="Blur Effect" />
+        <Image
+          className="object-cover h-full"
+          src={blur}
+          alt="Blur Effect"
+          priority
+        />
       </div>
       <div className="container mx-auto lg:flex items-center min-h-screen relative">
         <div className="lg:w-6/12 w-full">

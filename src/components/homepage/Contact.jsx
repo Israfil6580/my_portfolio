@@ -5,7 +5,7 @@ import { RiArrowRightDoubleLine } from "react-icons/ri";
 const Contact = () => {
   return (
     <div className="min-h-[80vh] container mx-auto relative">
-      <Image className="absolute" src={blur} alt="blur" />
+      <Image className="absolute" src={blur} alt="blur" priority />
       <RiArrowRightDoubleLine className="absolute right-0 top-1/2 -translate-y-1/2 h-60 w-auto text-[#111B2D]" />
       <div className="flex mb-10 mt-20 justify-center">
         <h1 className="lg:text-7xl text-5xl text-primary font-clash">
@@ -23,7 +23,7 @@ const Contact = () => {
             </label>
             <input
               type="text"
-              id="name"
+              id="sendername"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="John Doe"
               required
@@ -38,7 +38,7 @@ const Contact = () => {
             </label>
             <input
               type="email"
-              id="email"
+              id="replyto"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Johndoe@gmail.com"
               required
@@ -47,14 +47,14 @@ const Contact = () => {
           <div className="mb-5">
             <label
               htmlFor="message"
-              class="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
             >
               Your message
             </label>
             <textarea
               id="message"
               rows="4"
-              class="block p-2.5 w-full text-base text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block p-2.5 w-full text-base text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
