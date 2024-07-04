@@ -25,7 +25,7 @@ const About_me = () => {
         <div className="lg:w-6/12 w-full flex flex-col items-start gap-5">
           <p className="text-primary">
             I specialize in using React JS, Next JS, and Tailwind CSS to bring
-            your vision to life. Whether it`&apos;`s a personal project or a
+            your vision to life. Whether it&apos;s a personal project or a
             business website, I am dedicated to delivering high-quality,
             responsive, and engaging web applications that resonate with your
             audience.

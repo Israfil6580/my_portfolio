@@ -28,14 +28,6 @@ const Navbar = () => {
           Projects
         </Link>
       </li>
-      <li className={isActive("/blogs") ? "active" : ""}>
-        <Link
-          className="text-base text-primary font-normal btn btn-ghost hover:bg-transparent"
-          href={"/blogs"}
-        >
-          Blogs
-        </Link>
-      </li>
     </>
   );
 

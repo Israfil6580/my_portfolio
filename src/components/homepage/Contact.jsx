@@ -13,7 +13,7 @@ const Contact = () => {
         </h1>
       </div>
       <div>
-        <form className="max-w-screen-md mx-auto p-10 glassmorphism rounded-2xl">
+        <form className="max-w-screen-md mx-auto lg:p-10 p-4 glassmorphism rounded-2xl">
           <div className="mb-5">
             <label
               htmlFor="name"

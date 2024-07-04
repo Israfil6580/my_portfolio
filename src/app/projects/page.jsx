@@ -45,7 +45,7 @@ const page = () => {
               <p className="lg:text-xl text-lg">
                 KnowledgeHUB is your premier online coaching center where you
                 can enhance your skills and knowledge through a variety of
-                courses. Whether you`&apos;`re looking to advance your career or
+                courses. Whether you&apos;re looking to advance your career or
                 explore new interests, KnowledgeHUB offers a diverse range of
                 courses taught by experts in their fields.
               </p>
@@ -83,13 +83,13 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+              <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
                 <Link
                   href={"https://euphonious-centaur-a9c57b.netlify.app/"}
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  View Website <CgWebsite />
+                  View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/knowledgeHUB_Client"}
@@ -153,13 +153,13 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-4">
+              <div className="grid grid-cols-2 xl:grid-cols-3 mt-5 gap-4">
                 <Link
                   href={"https://foddieapp.netlify.app/"}
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  View Website <CgWebsite />
+                  View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/Foodie_Client"}
@@ -233,13 +233,13 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+              <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
                 <Link
                   href={"https://magnificent-bavarois-f6e8db.netlify.app/"}
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  View Website <CgWebsite />
+                  View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/EuroGuide_Client"}
