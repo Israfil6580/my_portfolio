@@ -51,37 +51,37 @@ const page = () => {
               </p>
               <h2 className="lg:text-4xl text-3xl mt-2">Technology Used</h2>
               <div className="flex gap-2 lg:gap-4">
-                <Image src={html} alt="html" className="lg:h-8 h-6 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-6 w-auto" />
+                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
+                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={mt}
                   alt="material tailwind"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-6 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-6 w-auto" />
+                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
+                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-6 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-6 w-auto" />
+                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
+                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
                 <Link
@@ -89,7 +89,7 @@ const page = () => {
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  Visit Website <CgWebsite />
+                  View Website <CgWebsite />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/knowledgeHUB_Client"}
@@ -121,37 +121,37 @@ const page = () => {
               </p>
               <h2 className="lg:text-4xl text-3xl">Technology Used</h2>
               <div className="flex lg:gap-4 gap-2">
-                <Image src={html} alt="html" className="lg:h-8 h-6 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-6 w-auto" />
+                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
+                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={daisy}
                   alt="daisy ui"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-6 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-6 w-auto" />
+                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
+                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-6 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-6 w-auto" />
+                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
+                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-3 mt-5 gap-4">
                 <Link
@@ -159,7 +159,7 @@ const page = () => {
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  Visit Website <CgWebsite />
+                  View Website <CgWebsite />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/Foodie_Client"}
@@ -201,37 +201,37 @@ const page = () => {
               </p>
               <h2 className="lg:text-4xl text-3xl">Technology Used</h2>
               <div className="flex lg:gap-4 gap-2">
-                <Image src={html} alt="html" className="lg:h-8 h-6 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-6 w-auto" />
+                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
+                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={mt}
                   alt="material tailwind"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-6 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-6 w-auto" />
+                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
+                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-6 w-auto"
+                  className="lg:h-8 h-4 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-6 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-6 w-auto" />
+                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
+                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
                 <Link
@@ -239,7 +239,7 @@ const page = () => {
                   target="_blank"
                   className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
                 >
-                  Visit Website <CgWebsite />
+                  View Website <CgWebsite />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/EuroGuide_Client"}
