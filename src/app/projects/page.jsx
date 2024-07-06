@@ -41,7 +41,7 @@ const page = () => {
 
             <Image
               src={project1}
-              className="lg:w-1/2 w-full lg:rounded-3xl"
+              className="lg:w-1/2 w-full lg:rounded-md"
               alt=""
             />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-3">
@@ -184,7 +184,7 @@ const page = () => {
             </div>
             <Image
               src={project2}
-              className="lg:w-1/2 w-full lg:rounded-3xl"
+              className="lg:w-1/2 w-full lg:rounded-md"
               alt=""
             />
             <Image
@@ -205,7 +205,7 @@ const page = () => {
             />
             <Image
               src={project3}
-              className="lg:w-1/2 w-full lg:rounded-3xl"
+              className="lg:w-1/2 w-full lg:rounded-md"
               alt=""
             />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-2">

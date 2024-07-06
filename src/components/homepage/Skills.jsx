@@ -21,32 +21,32 @@ import vscode from "../../../public/icons/vscode.png";
 import Image from "next/image";
 const Skills = () => {
   return (
-    <div className="min-h-[80vh] container mx-auto">
-      <div className="flex lg:justify-start justify-center my-10">
+    <div className="min-h-[80vh] container mx-auto my-16">
+      <div className="flex lg:justify-start justify-center mb-12">
         <h1 className="lg:text-6xl text-4xl text-primary font-clash uppercase">
           My skills
         </h1>
         <GoArrowUpRight className="lg:text-6xl text-4xl" />
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
-        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-3 rounded-2xl">
-          <h1 className="text-2xl text-primary font-clash tracking-wider mb-5 flex items-center justify-start">
+        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-7 rounded-md">
+          <h1 className="text-2xl text-primary font-clash tracking-wider mb-6 flex items-center justify-start">
             Frontend Side <IoIosArrowRoundForward className="text-3xl" />
           </h1>
           <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5">
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={html} alt="html" />
               Html5
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={css} alt="css" />
               Css3
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={js} alt="Js" />
               Javascript
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className=" lg:h-14 h-6 w-auto"
                 src={tailwind}
@@ -54,7 +54,7 @@ const Skills = () => {
               />
               Tailwind
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={bootstrap}
@@ -62,22 +62,22 @@ const Skills = () => {
               />
               Bootstrap
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={atom} alt="atom" />
               React
             </div>
           </div>
         </div>
-        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-3 rounded-2xl">
-          <h1 className="text-2xl text-primary font-clash tracking-wider mb-5 flex items-center justify-start">
+        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-7 rounded-md">
+          <h1 className="text-2xl text-primary font-clash tracking-wider mb-6 flex items-center justify-start">
             Backend Side <IoIosArrowRoundForward className="text-3xl" />
           </h1>
           <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5">
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={node} alt="Node js" />
               Node
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={express}
@@ -85,7 +85,7 @@ const Skills = () => {
               />
               Express
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className=" lg:h-14 h-6 w-auto"
                 src={jwt}
@@ -93,7 +93,7 @@ const Skills = () => {
               />
               Jwt
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={firebase}
@@ -101,22 +101,22 @@ const Skills = () => {
               />
               Firebase
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={next} alt="next" />
               Next JS
             </div>
           </div>
         </div>
-        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-5 rounded-2xl">
-          <h1 className="text-2xl text-primary font-clash tracking-wider mb-5 flex items-center justify-start">
+        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-7 rounded-md">
+          <h1 className="text-2xl text-primary font-clash tracking-wider mb-6 flex items-center justify-start">
             Used Tools <IoIosArrowRoundForward className="text-3xl" />
           </h1>
           <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5">
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <FaGithub className="text-2xl" />
               Github
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={netlify}
@@ -124,7 +124,7 @@ const Skills = () => {
               />
               Netlify
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="lg:h-12 h-6 w-auto"
                 src={vscode}
@@ -132,7 +132,7 @@ const Skills = () => {
               />
               VS Code
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={figma}
@@ -140,18 +140,18 @@ const Skills = () => {
               />
               Figma
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image className="w-auto lg:h-14 h-6" src={devtools} alt="atom" />
               Devtools
             </div>
           </div>
         </div>
-        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-5 rounded-2xl">
-          <h1 className="text-2xl text-primary font-clash tracking-wider mb-5 flex items-center justify-start">
+        <div className="bg-[#111B2D] border border-[#FFFFFF20] lg:p-10 p-7 rounded-md">
+          <h1 className="text-2xl text-primary font-clash tracking-wider mb-6 flex items-center justify-start">
             Database <IoIosArrowRoundForward className="text-3xl" />
           </h1>
           <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5">
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={mongodb}
@@ -159,7 +159,7 @@ const Skills = () => {
               />
               Mongodb
             </div>
-            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-3xl text-sm lg:text-base">
+            <div className="flex gap-2 items-center bg-[#111B2D] border border-[#FFFFFF20] p-4 justify-center rounded-md text-sm lg:text-base">
               <Image
                 className="w-auto lg:h-14 h-6"
                 src={servers}

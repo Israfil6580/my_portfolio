@@ -67,7 +67,7 @@ const Banner = () => {
               <a
                 href={"/Demo_resume.pdf"}
                 download
-                className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-2xl px-6 font-clash  text-primary"
+                className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-md px-6 font-clash  text-primary"
               >
                 Download CV <GoDownload className="text-lg" />
               </a>
@@ -81,7 +81,12 @@ const Banner = () => {
           </p>
         </div>
         <div className="lg:w-6/12 w-full flex items-center justify-between">
-          <Image className="p-2" src={card} alt="Banner Card" />
+          <Image
+            className="p-2 lg:pt-0 pt-10"
+            src={card}
+            alt="Banner Card"
+            priority
+          />
           <div className="flex flex-col gap-4">
             <a
               href="https://www.facebook.com/israfil6580/"

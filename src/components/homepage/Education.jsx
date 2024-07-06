@@ -2,8 +2,8 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Education = () => {
   return (
-    <div className="min-h-[80vh] container mx-auto">
-      <div className="flex mb-10 lg:mt-14 mt-20 lg:justify-end justify-center">
+    <div className="min-h-[80vh] container mx-auto mt-20">
+      <div className="flex lg:justify-end justify-center mb-12">
         <h1 className="lg:text-6xl text-4xl text-primary font-clash uppercase">
           Learning Curve
         </h1>

@@ -31,8 +31,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="fixed lg:top-2 w-full z-40">
-      <div className="navbar container mx-auto py-0 lg:px-6 px-4 md:rounded-3xl md:border border-[#242C36] glassmorphism shadow-none">
+    <div className="fixed lg:top-0 w-full z-40">
+      <div className="navbar container mx-auto py-0 lg:px-6 px-4 lg:rounded-b-md md:border border-[#242C36] glassmorphism shadow-none">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -110,7 +110,7 @@ const Navbar = () => {
           </label> */}
           <Link
             href={"/contact"}
-            className="btn btn-neutral bg-[#111B2D] rounded-2xl px-6 font-normal text-base text-primary min-h-6 h-12 hidden lg:flex"
+            className="btn btn-neutral bg-[#111B2D] rounded-md px-6 font-normal text-base text-primary min-h-6 h-12 hidden lg:flex"
           >
             Contact Us
           </Link>

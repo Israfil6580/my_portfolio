@@ -7,8 +7,8 @@ const About_me = () => {
   const phoneNumber = "+8801314543312";
   const message = "Hello, I would like to get in touch with you";
   return (
-    <div className="min-h-[70vh] container mx-auto">
-      <div className="flex lg:justify-end justify-center lg:my-0 my-10">
+    <div className="min-h-[70vh] container mx-auto my-16">
+      <div className="flex lg:justify-end justify-center mb-11">
         <h1 className="lg:text-6xl text-4xl text-primary font-clash uppercase">
           About me
         </h1>
@@ -43,7 +43,7 @@ const About_me = () => {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-2xl px-6 font-clash text-primary"
+            className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-2 flex items-center rounded-md px-6 font-clash text-primary"
           >
             WhatsApp <FaWhatsapp className="text-lg" />
           </Link>
