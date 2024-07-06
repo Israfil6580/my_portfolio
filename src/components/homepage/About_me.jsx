@@ -20,6 +20,7 @@ const About_me = () => {
             src={about}
             className="w-full h-full object-cover lg:rounded-full"
             alt="About Me"
+            priority
           />
         </div>
         <div className="lg:w-6/12 w-full flex flex-col items-start gap-5">
@@ -42,7 +43,7 @@ const About_me = () => {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-full px-6 font-clash text-primary"
+            className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-2xl px-6 font-clash text-primary"
           >
             WhatsApp <FaWhatsapp className="text-lg" />
           </Link>

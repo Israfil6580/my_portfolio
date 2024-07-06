@@ -21,7 +21,7 @@ import daisy from "../../../public/icons/daisy.png";
 import Link from "next/link";
 const page = () => {
   return (
-    <div className="min-h-screen container mx-auto pb-20 lg:px-0 px-2">
+    <div className="min-h-screen container mx-auto pb-20 lg:px-0 px-5">
       <div className="flex mb-10 mt-32 justify-start items-center">
         <h1 className="lg:text-6xl text-5xl text-primary font-clash">
           Projects

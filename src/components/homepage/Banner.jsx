@@ -52,14 +52,14 @@ const Banner = () => {
       <div className="container mx-auto lg:flex items-center min-h-screen relative">
         <div className="lg:w-6/12 w-full">
           <div className="lg:pt-0 pt-40">
-            <h1 className="text-primary text-4xl uppercase font-clash">
+            <h1 className="text-primary text-4xl lg:pb-0 pb-2 uppercase font-clash">
               Hey there 👋,
             </h1>
-            <h1 className="text-6xl text-primary uppercase font-clash">
+            <h1 className="lg:text-6xl text-5xl text-primary uppercase font-clash">
               I Am Israfil Hossain
             </h1>
             <h1
-              className="text-primary text-4xl uppercase lg:h-20 font-clash"
+              className="text-primary lg:text-4xl text-3xl uppercase lg:h-20 font-clash"
               ref={el}
             />
             <button>
@@ -67,7 +67,7 @@ const Banner = () => {
               <a
                 href={"/Demo_resume.pdf"}
                 download
-                className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-full px-6 font-clash  text-primary"
+                className="btn btn-ghost glassmorphism font-normal text-base mb-8 lg:mt-0 mt-8 flex items-center rounded-2xl px-6 font-clash  text-primary"
               >
                 Download CV <GoDownload className="text-lg" />
               </a>
