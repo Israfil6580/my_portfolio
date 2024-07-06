@@ -22,8 +22,8 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className="min-h-screen container mx-auto pb-20 lg:px-0 px-5">
-      <div className="flex mb-10 mt-32 justify-start items-center">
-        <h1 className="lg:text-6xl text-5xl text-primary font-clash">
+      <div className="flex mb-10 lg:mt-32 mt-28 justify-start items-center">
+        <h1 className="lg:text-6xl text-4xl text-primary font-clash">
           Projects
         </h1>
         <GoArrowUpRight className="lg:text-5xl text-4xl" />
@@ -41,7 +41,7 @@ const page = () => {
 
             <Image
               src={project1}
-              className="lg:w-1/2 w-full lg:rounded-md"
+              className="lg:w-1/2 w-full lg:rounded-lg"
               alt=""
             />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-3">
@@ -88,25 +88,25 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
+              <div className="grid grid-cols-2 xl:grid-cols-3 lg:gap-4 gap-2 mt-5">
                 <Link
                   href={"https://euphonious-centaur-a9c57b.netlify.app/"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/knowledgeHUB_Client"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Client Side <FaGithub />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/knowledgeHUB_Server"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Server Side <FaGithub />
                 </Link>
@@ -158,25 +158,25 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 xl:grid-cols-3 mt-5 gap-4">
+              <div className="grid grid-cols-2 xl:grid-cols-3 mt-5 lg:gap-4 gap-2">
                 <Link
                   href={"https://foddieapp.netlify.app/"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/Foodie_Client"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Client Side <FaGithub />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/Foodie_Server"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Server Side <FaGithub />
                 </Link>
@@ -184,7 +184,7 @@ const page = () => {
             </div>
             <Image
               src={project2}
-              className="lg:w-1/2 w-full lg:rounded-md"
+              className="lg:w-1/2 w-full lg:rounded-lg"
               alt=""
             />
             <Image
@@ -205,7 +205,7 @@ const page = () => {
             />
             <Image
               src={project3}
-              className="lg:w-1/2 w-full lg:rounded-md"
+              className="lg:w-1/2 w-full lg:rounded-lg"
               alt=""
             />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-2">
@@ -248,25 +248,25 @@ const page = () => {
                 <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
                 <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
               </div>
-              <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
+              <div className="grid grid-cols-2 xl:grid-cols-3 lg:gap-4 gap-2 mt-5">
                 <Link
                   href={"https://magnificent-bavarois-f6e8db.netlify.app/"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   View Website <CgWebsite className="hidden lg:block" />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/EuroGuide_Client"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Client Side <FaGithub />
                 </Link>
                 <Link
                   href={"https://github.com/Israfil6580/EuroGuide_Server"}
                   target="_blank"
-                  className="btn btn-ghost glassmorphism text-lg font-normal text-primary flex items-center"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
                 >
                   Server Side <FaGithub />
                 </Link>
