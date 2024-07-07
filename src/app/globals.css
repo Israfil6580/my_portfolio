@@ -4,32 +4,33 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
-  background-color: #172030
+  background-color: #172030;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: 'ClashDisplay';
-        font-style: normal;
-        font-weight: 400;
-        src: url('/fonts/ClashDisplay-Regular.ttf') format('truetype');
-    }
-    @font-face {
-        font-family: 'ClashDisplay';
-        font-style: normal;
-        font-weight: 600;
-        src: url('/fonts/ClashDisplay-Semibold.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'ClashDisplay';
-      font-style: normal;
-      font-weight: 500;
-      src: url('/fonts/ClashDisplay-Medium.ttf') format('truetype');
+  @font-face {
+    font-family: "ClashDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ClashDisplay-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "ClashDisplay";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "ClashDisplay";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/ClashDisplay-Medium.ttf") format("truetype");
   }
 }
 
@@ -43,7 +44,7 @@ html, body {
   height: 6px;
   width: 6px;
   border-radius: 40px;
-  background: #D9D9D9;
+  background: #d9d9d9;
 }
 
 .glassmorphism {
@@ -51,4 +52,10 @@ html, body {
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.W-glassmorphism {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.125);
 }

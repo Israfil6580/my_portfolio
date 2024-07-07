@@ -7,12 +7,12 @@ const Education = () => {
         <h1 className="lg:text-6xl text-4xl text-primary font-clash uppercase">
           Learning Curve
         </h1>
-        <GoArrowUpRight className="lg:text-6xl text-4xl" />
+        <GoArrowUpRight className="lg:text-6xl text-4xl text-primary" />
       </div>
 
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
-          <div className="timeline-middle">
+          <div className="timeline-middle text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -26,8 +26,8 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end font-clash">
-            <time className="font-mono text-xl">2021</time>
+          <div className="timeline-start mb-10 md:text-end font-clash text-primary">
+            <time className="font-mono text-xl text-primary">2021</time>
             <div className="lg:text-4xl text-2xl lg:font-medium text-primary">
               Html And Css
             </div>
@@ -37,7 +37,7 @@ const Education = () => {
         </li>
         <li>
           <hr />
-          <div className="timeline-middle">
+          <div className="timeline-middle text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -51,8 +51,8 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end mb-10 font-clash ">
-            <time className="font-mono text-xl">2022</time>
+          <div className="timeline-end mb-10 font-clash text-primary">
+            <time className="font-mono text-xl text-primary">2022</time>
             <div className="lg:font-medium lg:text-4xl text-2xl text-primary">
               Bootstrap And Javascript
             </div>
@@ -62,7 +62,7 @@ const Education = () => {
         </li>
         <li>
           <hr />
-          <div className="timeline-middle">
+          <div className="timeline-middle text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -76,8 +76,8 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end font-clash">
-            <time className="font-mono text-xl">2023</time>
+          <div className="timeline-start mb-10 md:text-end font-clash text-primary">
+            <time className="font-mono text-xl text-primary">2023</time>
             <div className="lg:text-4xl text-2xl lg:font-medium text-primary">
               Git, Github, Tailwind, React
             </div>
@@ -87,7 +87,7 @@ const Education = () => {
         </li>
         <li>
           <hr />
-          <div className="timeline-middle">
+          <div className="timeline-middle text-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -101,8 +101,8 @@ const Education = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end mb-10 font-clash">
-            <time className="font-mono text-xl">2024</time>
+          <div className="timeline-end mb-10 font-clash text-primary">
+            <time className="font-mono text-xl text-primary">2024</time>
             <div className="lg:text-4xl text-2xl lg:font-medium text-primary">
               Next Js, Firebase, Mongodb, Express
             </div>

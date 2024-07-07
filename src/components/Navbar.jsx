@@ -31,8 +31,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="fixed lg:top-0 w-full z-40">
-      <div className="navbar container mx-auto py-0 lg:px-6 px-4 lg:rounded-b-md md:border border-[#242C36] glassmorphism shadow-none">
+    <div className="fixed lg:top-0 w-full z-40 W-glassmorphism md:px-20 px-4">
+      <div className="navbar container mx-auto py-0 shadow-none">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-64 p-2"
+              className="menu dropdown-content bg-[#2F3847] rounded-box z-[1] mt-3 w-64 p-2"
             >
               {navlinks}
             </ul>

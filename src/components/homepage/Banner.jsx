@@ -82,7 +82,7 @@ const Banner = () => {
         </div>
         <div className="lg:w-6/12 w-full flex items-center justify-between">
           <Image
-            className="p-2 lg:pt-0 pt-10"
+            className="p-2 w-2/3 h-auto pt-10"
             src={card}
             alt="Banner Card"
             priority

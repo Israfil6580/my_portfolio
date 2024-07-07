@@ -6,7 +6,7 @@ import Skills from "@/components/homepage/Skills";
 
 export default function Home() {
   return (
-    <main className="px-5">
+    <main className="contaier mx-auto md:px-20 px-5">
       <Banner />
       <About_me />
       <Skills />

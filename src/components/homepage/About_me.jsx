@@ -12,7 +12,7 @@ const About_me = () => {
         <h1 className="lg:text-6xl text-4xl text-primary font-clash uppercase">
           About me
         </h1>
-        <GoArrowUpRight className="lg:text-6xl text-4xl" />
+        <GoArrowUpRight className="lg:text-6xl text-4xl text-primary" />
       </div>
       <div className="flex lg:flex-row flex-col items-center gap-10">
         <div className="lg:w-6/12 w-full">

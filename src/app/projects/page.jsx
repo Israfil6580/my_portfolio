@@ -21,12 +21,12 @@ import daisy from "../../../public/icons/daisy.png";
 import Link from "next/link";
 const page = () => {
   return (
-    <div className="min-h-screen container mx-auto pb-20 lg:px-0 px-5">
+    <div className="min-h-screen container mx-auto pb-20 md:px-20 px-5">
       <div className="flex mb-10 lg:mt-32 mt-28 justify-start items-center">
         <h1 className="lg:text-6xl text-4xl text-primary font-clash">
           Projects
         </h1>
-        <GoArrowUpRight className="lg:text-5xl text-4xl" />
+        <GoArrowUpRight className="lg:text-5xl text-4xl text-primary" />
       </div>
 
       <div className="flex flex-col gap-y-28">
