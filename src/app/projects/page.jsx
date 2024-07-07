@@ -55,38 +55,62 @@ const page = () => {
                 courses taught by experts in their fields.
               </p>
               <h2 className="lg:text-4xl text-3xl mt-2">Technology Used</h2>
-              <div className="flex gap-2 lg:gap-4">
-                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
+              <div className="flex gap-2 xl:gap-4 lg:gap-3">
+                <Image
+                  src={html}
+                  alt="html"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={css}
+                  alt="css"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={mt}
                   alt="material tailwind"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={atom}
+                  alt="react"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={js}
+                  alt="js"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={jwt}
+                  alt="jwt"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={node}
+                  alt="node"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
               </div>
               <div className="grid grid-cols-2 xl:grid-cols-3 lg:gap-4 gap-2 mt-5">
                 <Link
@@ -125,38 +149,62 @@ const page = () => {
                 culinary inspirations.
               </p>
               <h2 className="lg:text-4xl text-3xl">Technology Used</h2>
-              <div className="flex lg:gap-4 gap-2">
-                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
+              <div className="flex gap-2 lg:gap-3 xl:gap-4">
+                <Image
+                  src={html}
+                  alt="html"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={css}
+                  alt="css"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={daisy}
                   alt="daisy ui"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={atom}
+                  alt="react"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={js}
+                  alt="js"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={jwt}
+                  alt="jwt"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={node}
+                  alt="node"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
               </div>
               <div className="grid grid-cols-2 xl:grid-cols-3 mt-5 lg:gap-4 gap-2">
                 <Link
@@ -215,38 +263,62 @@ const page = () => {
                 A web application for exploring European travel destinations.
               </p>
               <h2 className="lg:text-4xl text-3xl">Technology Used</h2>
-              <div className="flex lg:gap-4 gap-2">
-                <Image src={html} alt="html" className="lg:h-8 h-4 w-auto" />
-                <Image src={css} alt="css" className="lg:h-8 h-4 w-auto" />
+              <div className="flex gap-2 lg:gap-3 xl:gap-4">
+                <Image
+                  src={html}
+                  alt="html"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={css}
+                  alt="css"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={tailwind}
                   alt="tailwind"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={mt}
                   alt="material tailwind"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={atom} alt="react" className="lg:h-8 h-4 w-auto" />
-                <Image src={js} alt="js" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={atom}
+                  alt="react"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={js}
+                  alt="js"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
                 <Image
                   src={firebase}
                   alt="firebase"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={mongodb}
                   alt="mongodb"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
                 <Image
                   src={express}
                   alt="express"
-                  className="lg:h-8 h-4 w-auto"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
                 />
-                <Image src={jwt} alt="jwt" className="lg:h-8 h-4 w-auto" />
-                <Image src={node} alt="node" className="lg:h-8 h-4 w-auto" />
+                <Image
+                  src={jwt}
+                  alt="jwt"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={node}
+                  alt="node"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
               </div>
               <div className="grid grid-cols-2 xl:grid-cols-3 lg:gap-4 gap-2 mt-5">
                 <Link
