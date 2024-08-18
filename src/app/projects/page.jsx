@@ -47,7 +47,7 @@ const page = () => {
             />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-3">
               Netcomm
-              <h2 className="lg:text-4xl text-3xl">February, 2024</h2>
+              <h2 className="lg:text-4xl text-3xl">June, 2024</h2>
               <p className="lg:text-xl text-lg">
                 NetComm is a telecommunications equipment manufacturer known for
                 producing a range of networking devices, including modems,
