@@ -6,6 +6,7 @@ import blur from "../../../public/blur.png";
 import project1 from "../../../public/project1.png";
 import project2 from "../../../public/project2.png";
 import project3 from "../../../public/project3.png";
+import project4 from "../../../public/project4.png";
 import atom from "../../../public/icons/atom.png";
 import css from "../../../public/icons/css-3.png";
 import express from "../../../public/icons/express.png";
@@ -30,6 +31,107 @@ const page = () => {
       </div>
 
       <div className="flex flex-col gap-y-28">
+        <div className="relative z-10">
+          <div className="flex flex-col lg:flex-row justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
+            <Image
+              className="absolute left-1/2 -z-10"
+              src={blur}
+              alt="blur"
+              priority
+            />
+
+            <Image
+              src={project4}
+              className="lg:w-1/2 w-full lg:rounded-lg"
+              alt=""
+            />
+            <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-3">
+              Netcomm
+              <h2 className="lg:text-4xl text-3xl">February, 2024</h2>
+              <p className="lg:text-xl text-lg">
+                NetComm is a telecommunications equipment manufacturer known for
+                producing a range of networking devices, including modems,
+                routers, and gateways. The company specializes in providing
+                reliable and innovative solutions for broadband, mobile, and
+                fixed wireless access. NetComm&apos;s products are widely used
+                by internet service providers and businesses to deliver
+                high-speed internet connectivity and support various
+                communication needs.
+              </p>
+              <h2 className="lg:text-4xl text-3xl mt-2">Technology Used</h2>
+              <div className="flex gap-2 xl:gap-4 lg:gap-3">
+                <Image
+                  src={html}
+                  alt="html"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={css}
+                  alt="css"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={tailwind}
+                  alt="tailwind"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={atom}
+                  alt="react"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={js}
+                  alt="js"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={firebase}
+                  alt="firebase"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={mongodb}
+                  alt="mongodb"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={express}
+                  alt="express"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+                <Image
+                  src={node}
+                  alt="node"
+                  className=" h-4 lg:h-6 xl:h-7 w-auto"
+                />
+              </div>
+              <div className="grid grid-cols-2 xl:grid-cols-3 lg:gap-4 gap-2 mt-5">
+                <Link
+                  href={"https://netcomm.netlify.app/"}
+                  target="_blank"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
+                >
+                  View Website <CgWebsite className="hidden lg:block" />
+                </Link>
+                <Link
+                  href={"https://github.com/Israfil6580/client"}
+                  target="_blank"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
+                >
+                  Client Side <FaGithub />
+                </Link>
+                <Link
+                  href={"https://github.com/Israfil6580/server"}
+                  target="_blank"
+                  className="btn btn-ghost glassmorphism lg:text-lg text-base font-normal text-primary flex items-center p-0"
+                >
+                  Server Side <FaGithub />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="relative z-10">
           <div className="flex flex-col lg:flex-row justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
             <Image
