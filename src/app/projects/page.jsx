@@ -32,7 +32,7 @@ const page = () => {
 
       <div className="flex flex-col gap-y-28">
         <div className="relative z-10">
-          <div className="flex flex-col lg:flex-row justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
+          <div className="flex flex-col-reverse lg:flex-row justify-start items-center gap-10 font-normal transition-all duration-200 lg:hover:scale-95">
             <Image
               className="absolute left-1/2 -z-10"
               src={blur}
