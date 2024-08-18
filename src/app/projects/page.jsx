@@ -40,11 +40,6 @@ const page = () => {
               priority
             />
 
-            <Image
-              src={project4}
-              className="lg:w-1/2 w-full lg:rounded-lg"
-              alt=""
-            />
             <div className="lg:text-5xl text-4xl text-primary font-clash flex flex-col lg:gap-y-4 gap-y-3">
               Netcomm
               <h2 className="lg:text-4xl text-3xl">June, 2024</h2>
@@ -130,6 +125,12 @@ const page = () => {
                 </Link>
               </div>
             </div>
+
+            <Image
+              src={project4}
+              className="lg:w-1/2 w-full lg:rounded-lg"
+              alt=""
+            />
           </div>
         </div>
         <div className="relative z-10">

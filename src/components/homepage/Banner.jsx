@@ -87,7 +87,7 @@ const Banner = () => {
             alt="Banner Card"
             priority
           />
-          <div className="flex md:flex-col flex-row gap-4 fixed z-50 glassmorphism py-4 rounded-xl md:bottom-auto  bottom-2 left-1/2 md:left-auto -translate-x-1/2 md:-translate-x-0 md:top-1/3 md:right-12 ">
+          <div className="flex md:flex-col flex-row md:gap-4 gap-0 fixed z-50 glassmorphism md:py-4 py-2 rounded-xl md:bottom-auto  bottom-2 left-1/2 md:left-auto -translate-x-1/2 md:-translate-x-0 md:top-1/3 md:right-12 ">
             <a
               href="https://www.facebook.com/israfil6580/"
               target="_blank"
